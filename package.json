@@ -1,0 +1,49 @@
+{
+  "name": "ai-docsify",
+  "version": "1.0.0",
+  "description": "基于Docsify构建的现代化文档查看系统",
+  "main": "index.html",
+  "scripts": {
+    "dev": "docsify serve . --port 3000",
+    "serve": "docsify serve .",
+    "start": "docsify serve . --port 3000 --open",
+    "build": "echo 'Docsify不需要构建步骤，直接部署静态文件即可'",
+    "preview": "npx serve . -p 3000",
+    "lint": "markdownlint docs/**/*.md README.md",
+    "format": "prettier --write '**/*.{md,json,yml,yaml}'"
+  },
+  "keywords": [
+    "docsify",
+    "documentation",
+    "markdown",
+    "docs",
+    "ai",
+    "vue",
+    "static-site"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ai-docsify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/ai-docsify/issues"
+  },
+  "homepage": "https://your-username.github.io/ai-docsify",
+  "devDependencies": {
+    "docsify-cli": "^4.4.4",
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "^3.0.0",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
